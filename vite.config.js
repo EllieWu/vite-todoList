@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/vite-todoList',
+  base:'/vite-todoList/',
   plugins: [vue(), tailwindcss()],
   css: {
     preprocessorOptions: {
